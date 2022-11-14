@@ -29,7 +29,7 @@ const Detail = () => {
           <Container className="my-3">
             <Row className="my-1">
               <Col xs={12}>
-                <Image style={{width:900,height:500,marginLeft:60}} src={item.img} fluid />
+                <Image style={{width:900,height:500,marginLeft:20}} src={item.img} fluid />
               </Col>
             </Row>
             <Row className="my-5">
