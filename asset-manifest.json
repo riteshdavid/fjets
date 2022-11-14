@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fjets/static/css/main.76031048.css",
+    "main.js": "/fjets/static/js/main.0018e29a.js",
+    "static/js/787.994511a4.chunk.js": "/fjets/static/js/787.994511a4.chunk.js",
+    "static/media/pic-7.jpg": "/fjets/static/media/pic-7.fdfb58205bc37f5a6796.jpg",
+    "static/media/pic-5.jpg": "/fjets/static/media/pic-5.4c10066ee33501857745.jpg",
+    "static/media/pic-6.jpg": "/fjets/static/media/pic-6.7e6032a64a804dbc53ca.jpg",
+    "static/media/pic-9.jpg": "/fjets/static/media/pic-9.605e2bfc451001a9d17b.jpg",
+    "static/media/pic-10.jpeg": "/fjets/static/media/pic-10.61649929529774d7cb86.jpeg",
+    "static/media/Apache_at_Air_Force_Day_Parade,_at_Air_Force_Station_Hindan,_in_Ghaziabad_(cropped).jpg": "/fjets/static/media/Apache_at_Air_Force_Day_Parade,_at_Air_Force_Station_Hindan,_in_Ghaziabad_(cropped).f2e9e32c9083dfca1c04.jpg",
+    "static/media/pic-8.jpg": "/fjets/static/media/pic-8.258874099790e56a7a59.jpg",
+    "static/media/logo1.webp": "/fjets/static/media/logo1.60d35960205020d6a654.webp",
+    "index.html": "/fjets/index.html",
+    "main.76031048.css.map": "/fjets/static/css/main.76031048.css.map",
+    "main.0018e29a.js.map": "/fjets/static/js/main.0018e29a.js.map",
+    "787.994511a4.chunk.js.map": "/fjets/static/js/787.994511a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76031048.css",
+    "static/js/main.0018e29a.js"
+  ]
+}
