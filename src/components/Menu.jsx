@@ -1,7 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import {Nav,Navbar,NavDropdown} from 'react-bootstrap';
-import data from "../constants";
-import logo1 from "../pics/logo1.webp"
+import demoUrl from "./constants";
+import logo1 from "../pics/logo1.webp";
+import {Link} from "react-router-dom";
+
 
 
 
@@ -10,6 +12,7 @@ function Menu() {
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="#home">
+      <Link to='/' style={{textDecoration:"none",display:"flex",listStyle:"none",color:"#fff"}}>
       <img
           src={logo1}
           width="30"
@@ -17,14 +20,14 @@ function Menu() {
           className="d-inline-block align-top"
           alt="React Bootstrap logo"
       />{' '}
-        Fighter-Jets
+        <strong>F-JETS</strong></Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <Nav.Link href="/about">About Us(*)</Nav.Link>
+          <Nav.Link><Link to={demoUrl} style={{color:"inherit",textDecoration:"none"}}>Demo Menu(-)</Link></Nav.Link>
+          <NavDropdown title="Dropdown(-)" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
@@ -37,9 +40,9 @@ function Menu() {
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link href="#deets">More deets</Nav.Link>
+          <Nav.Link href="#deets">More deets(-)</Nav.Link>
           <Nav.Link eventKey={2} href="#memes">
-            Witty Jokes
+            Jokes(-)
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
